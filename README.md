@@ -25,40 +25,6 @@
 - **Output Management:** Exports validation results and categorized findings into separate text files.
 - **Colored Terminal Output:** Provides color-coded status messages using Colorama.
 
-# 💀 WORDPRESS SECURITY AUDITOR
-
-### 👾 PYTHON-POWERED WORDPRESS SECURITY RESEARCH TOOLKIT
-
-\<p align="center">   ⚡ RECONNAISSANCE • ANALYSIS • SECURITY ⚡ \</p>
-
----
-
-## 🕶️ ABOUT THE PROJECT
-
-**WordPress Security Auditor** is a Python-based cybersecurity research project focused on understanding WordPress authentication security, HTTP session handling, dashboard access controls, and plugin-related security indicators.
-
-## ⚡ PROJECT FEATURES
-
-- 🚀 Concurrent HTTP request processing
-- 🌐 WordPress endpoint inspection
-- 🔐 Authentication security research
-- 🔍 Dashboard response analysis
-- 🧩 Plugin environment indicators
-- 📊 Terminal status reporting
-- 🎨 Colored terminal interface
-- 🐍 Python automation
-
-## 🧰 TECHNOLOGIES
-
-| Technology             | Purpose               |
-| ---------------------- | --------------------- |
-| 🐍 Python              | Core engine           |
-| 🌐 Requests            | HTTP communication    |
-| 🔍 Regular Expressions | Response analysis     |
-| 🧵 ThreadPoolExecutor  | Concurrent processing |
-| 🎨 Colorama            | Terminal styling      |
-| 🔗 urllib.parse        | URL parsing           |
-
 ## 📦 INSTALLATION
 
 ```bash
