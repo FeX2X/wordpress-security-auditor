@@ -49,21 +49,6 @@
 - 🎨 Colored terminal interface
 - 🐍 Python automation
 
-1. Key features
-| Feature | Description |
-|---|---|
-| Multiple credential formats | Supports URL|USER|PASS, URL#USER@PASS, URL#USER:PASS, and URL:USER:PASS. |
-| URL normalization | Automatically adds HTTPS and removes trailing slashes. |
-| HTTP login | Uses Python requests.Session() to maintain cookies. |
-| Redirect handling | Detects domain changes after login and adjusts the base URL. |
-| UserPro detection | Detects a UserPro login page and attempts its alternate login flow. |
-| Dashboard validation | Checks for wp-admin/profile.php or wpwrap in the dashboard HTML. |
-| Plugin detection | Looks for plugin-installation page references. |
-| File Manager detection | Looks for the WP File Manager string. |
-| Multithreading | Processes multiple entries concurrently using ThreadPoolExecutor. |
-| Output management | Saves successful entries and categorized results into separate files. |
-| Colored terminal | Uses Colorama for success, failure, and informational messages. |
-
 ## 🧰 TECHNOLOGIES
 
 | Technology             | Purpose               |
