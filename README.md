@@ -12,6 +12,20 @@
 🐍 Python automation
 🛡️ Authorized security research
 
+## 🚀 Key Features
+
+- **Multiple Credential Formats:** Supports `URL|USER|PASS`, `URL#USER@PASS`, `URL#USER:PASS`, and `URL:USER:PASS`.
+- **URL Normalization:** Automatically handles HTTPS prefixes and removes trailing slashes.
+- **HTTP Session Management:** Uses `requests.Session()` to maintain session cookies across requests.
+- **Redirect Handling:** Detects domain redirects and adjusts the base URL accordingly.
+- **UserPro Detection:** Identifies UserPro login pages and detects alternate authentication flows.
+- **Dashboard Validation:** Checks WordPress dashboard response indicators such as `wp-admin/profile.php` and `wpwrap`.
+- **Plugin Detection:** Identifies plugin-installation references in dashboard responses.
+- **File Manager Detection:** Detects WP File Manager references in dashboard HTML.
+- **Multithreading:** Supports concurrent processing with `ThreadPoolExecutor`.
+- **Output Management:** Exports validation results and categorized findings into separate text files.
+- **Colored Terminal Output:** Provides color-coded status messages using Colorama.
+
 # 💀 WORDPRESS SECURITY AUDITOR
 
 ### 👾 PYTHON-POWERED WORDPRESS SECURITY RESEARCH TOOLKIT
